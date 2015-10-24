@@ -7,4 +7,4 @@ class SelectableCalendar(calendar.HTMLCalendar):
     if day == 0:
         return '<td class="noday">&nbsp;</td>' # day outside month
     else:
-        return '<td class="/%s"><a href="/%s">%d</a></td>' % (self.cssclasses[weekday],day, day)
+        return '<td class="%s"><a href="/%s">%d</a></td>' % (self.cssclasses[weekday],day, day)
