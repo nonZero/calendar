@@ -1,0 +1,58 @@
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:auto;
+}
+
+td, th, a{
+    padding:5px ;
+    color: #9F3DAD;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.nav{
+    flex:auto;
+    text-align:center;
+}
+
+.history_container{
+  padding: 30px;
+
+}
+div{
+  max-width: 90%;
+  margin: 0 auto;
+  vertical-align: center;
+  text-align: center;
+}
+
+.dead{
+  color: #4f1e56;
+  font-size: 4em;
+}
+
+div.yearly_calendar{
+  position: relative;
+
+}
+table.year{
+ margin: auto;
+}
+
+table.year a{
+    padding:5px ;
+    color: blue;
+}
+
+table.year td{
+  vertical-align: top;
+}
+
+
+
